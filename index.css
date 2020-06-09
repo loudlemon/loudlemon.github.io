@@ -141,7 +141,7 @@ body {
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(100,100,100,0.9);
     cursor:pointer;
 }
 #contact:hover {
