@@ -10,6 +10,16 @@ body {
     overflow:hidden;
     font-family: 'Josefin Sans', sans-serif;
 }
+body_2 {
+    padding:0px;
+    margin:0px;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/facade.jpg") center center;
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    font-family: 'Josefin Sans', sans-serif;
+}
 #loading {
     width: 100vw;
     height: 100vh;
