@@ -51,3 +51,17 @@ setTimeout(function(){
       $("#work").removeClass("animated fadeIn");
     },1000);
 },1500);
+function showlanl(){
+    $("#lanl_container").css("display","inherit");
+    $("#lanl_container").addClass("animated slideInUp");
+    setTimeout(function(){
+        $("#lanl_container").removeClass("animated slideInUp");
+    },800);
+}
+function closelanl(){
+    $("#lanl_container").addClass("animated slideOutDown");
+    setTimeout(function(){
+        $("#lanl_container").removeClass("animated slideOutDown");
+        $("#lanl_container").css("display","none");
+    },800);
+}
