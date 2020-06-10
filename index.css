@@ -89,8 +89,10 @@ body {
     text-align:center;
     font-size:25px;
     transform:rotate(0deg);
-    background:transparent;
-    color:#fff;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/facade.jpg") center center;
+    background-size:cover;
+    /*background:transparent;*/
+    /*color:#fff;*/
     position:fixed;
     left:0;
     bottom:40vh;
