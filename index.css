@@ -192,6 +192,19 @@ body {
     overflow-y:auto;
     display:none;
 }
+.lanl {
+    width:90vw;
+    height:90vh;
+    padding:5vh 5vw;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/seismic.jpg") center center;
+    background-size:cover;
+    color:#fff;
+    z-index:9;
+    position:fixed;
+    max-height:100vh;
+    overflow-y:auto;
+    display:none;
+}
 .container div {
     font-size:25px;
     margin:20px 0px;
@@ -208,7 +221,15 @@ body {
     margin:20px 0px;
     transition:0.4s ease-in-out;
 }
+.lanl div {
+    font-size:25px;
+    margin:20px 0px;
+    transition:0.4s ease-in-out;
+}
 .contabout div:hover {
+    cursor:pointer;
+}
+.lanl div:hover {
     cursor:pointer;
 }
 #used div{
