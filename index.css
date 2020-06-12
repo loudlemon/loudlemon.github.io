@@ -266,7 +266,7 @@ body {
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
-    cursor:pointer;
+    /*cursor:pointer;*/
     color:rgb(255, 50, 50);
     background:#fff;
 }
