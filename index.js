@@ -1,9 +1,22 @@
 let open = false;
-$('#showHideContent').click(function() {
-    $("#showHideContent").html(open = !open? 'Свернуть': 'LANL Earthquake prediction');
+$('#showlanlcont').click(function() {
+    $("#showlanlcont").html(open = !open? 'Свернуть': 'LANL Earthquake prediction');
 });
 $(document).ready(function(){
-    $("#showHideContent").click(function () {
+    $("#showlanlcont").click(function () {
+        if ($("#content_Box_Div").is(":hidden")) {
+            $("#content_Box_Div").show("slow");
+        } else {
+            $("#content_Box_Div").hide("slow");
+        }
+        return false;
+    });
+});
+$('#showjigcont').click(function() {
+    $("#showjigcont").html(open = !open? 'Свернуть': 'Jigsaw Tixicity Classification');
+});
+$(document).ready(function(){
+    $("#showjigcont").click(function () {
         if ($("#content_Box_Div").is(":hidden")) {
             $("#content_Box_Div").show("slow");
         } else {
