@@ -12,9 +12,8 @@ $(document).ready(function(){
         return false;
     });
 });
-let openn = false;
 $('#showjigcont').click(function() {
-    $("#showjigcont").html(openn = !openn? 'Свернуть': 'Jigsaw Tixicity Classification');
+    $("#showjigcont").html(open = !open? 'Свернуть': 'Jigsaw Tixicity Classification');
 });
 $(document).ready(function(){
     $("#showjigcont").click(function () {
