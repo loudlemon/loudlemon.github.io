@@ -13,7 +13,7 @@ $(document).ready(function(){
     });
 });
 $('#showjigcont').click(function() {
-    $("#showjigcont").html(open = !open? 'Свернуть': 'Jigsaw Tixicity Classification');
+    $("#showjigcont").html(open = !open? 'Свернуть': 'Jigsaw Toxicity Classification');
 });
 $(document).ready(function(){
     $("#showjigcont").click(function () {
