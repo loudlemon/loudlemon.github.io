@@ -223,6 +223,14 @@ body {
     margin:20px 0px;
     transition:0.4s ease-in-out;
 }
+.works div {
+    font-size:25px;
+    margin:20px 0px;
+    transition:0.4s ease-in-out;
+}
+.works div:hover {
+    cursor:pointer;
+}
 .container div:hover {
     cursor:pointer;
 }
