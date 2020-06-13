@@ -15,7 +15,7 @@ $(document).ready(function(){
 $('#showjigcont').click(function() {
     $("#showjigcont").html(open = !open? 'Свернуть': 'Jigsaw Tixicity Classification');
 });
-$(document1).ready(function(){
+$(document).ready(function(){
     $("#showjigcont").click(function () {
         if ($("#content_JigSaw").is(":hidden")) {
             $("#content_JigSaw").show("slow");
