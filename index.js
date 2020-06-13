@@ -1,6 +1,6 @@
 let open = false;
 $('#showHideContent').click(function() {
-    $("#showHideContent").html(open = !open? 'Свернуть': 'LANL Eartquake Prediction');
+    $("#showHideContent").html(open = !open? 'Свернуть': 'LANL Earthquake prediction');
 });
 $(document).ready(function(){
     $("#showHideContent").click(function () {
