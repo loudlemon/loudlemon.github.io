@@ -1,3 +1,17 @@
+let open = false;
+$('#showHideContent').click(function() {
+    $("#showHideContent").html(open = !open? 'Свернуть': 'Развернуть');
+});
+$(document).ready(function(){
+    $("#showHideContent").click(function () {
+        if ($("#content_Box_Div").is(":hidden")) {
+            $("#content_Box_Div").show("slow");
+        } else {
+            $("#content_Box_Div").hide("slow");
+        }
+        return false;
+    });
+});
 function showabout(){
     $("#about_container").css("display","inherit");
     $("#about_container").addClass("animated slideInLeft");
