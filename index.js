@@ -4,10 +4,10 @@ $('#showlanlcont').click(function() {
 });
 $(document).ready(function(){
     $("#showlanlcont").click(function () {
-        if ($("#content_Box_Div").is(":hidden")) {
-            $("#content_Box_Div").show("slow");
+        if ($("#content_LANL").is(":hidden")) {
+            $("#content_LANL").show("slow");
         } else {
-            $("#content_Box_Div").hide("slow");
+            $("#content_LANL").hide("slow");
         }
         return false;
     });
@@ -17,10 +17,10 @@ $('#showjigcont').click(function() {
 });
 $(document).ready(function(){
     $("#showjigcont").click(function () {
-        if ($("#content_Box_Div").is(":hidden")) {
-            $("#content_Box_Div").show("slow");
+        if ($("#content_JigSaw").is(":hidden")) {
+            $("#content_JigSaw").show("slow");
         } else {
-            $("#content_Box_Div").hide("slow");
+            $("#content_JigSaw").hide("slow");
         }
         return false;
     });
