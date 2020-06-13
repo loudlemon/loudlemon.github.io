@@ -16,7 +16,7 @@ let openn = false;
 $('#showjigcont').click(function() {
     $("#showjigcont").html(openn = !openn? 'Свернуть': 'Jigsaw Tixicity Classification');
 });
-$(document1).ready(function(){
+$(document).ready(function(){
     $("#showjigcont").click(function () {
         if ($("#content_JigSaw").is(":hidden")) {
             $("#content_JigSaw").show("slow");
