@@ -39,7 +39,7 @@ $(document).ready(function(){
     });
 });
 $('#showWheels').click(function() {
-    $("#showWheels").html(open = !open? 'Свернуть': 'Анализ результатов А/В тестирования');
+    $("#showWheels").html(open = !open? 'Свернуть': 'Кто больше:туристы или подписчики?');
 });
 $(document).ready(function(){
     $("#showWheels").click(function () {
