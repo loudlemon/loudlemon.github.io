@@ -25,6 +25,19 @@ $(document).ready(function(){
         return false;
     });
 });
+$('#showABtest').click(function() {
+    $("#showABtest").html(open = !open? 'Свернуть': 'Анализ результатов А/В тестирования');
+});
+$(document).ready(function(){
+    $("#showABtest").click(function () {
+        if ($("#content_AB").is(":hidden")) {
+            $("#content_AB").show("slow");
+        } else {
+            $("#content_AB").hide("slow");
+        }
+        return false;
+    });
+});
 function showabout(){
     $("#about_container").css("display","inherit");
     $("#about_container").addClass("animated slideInLeft");
