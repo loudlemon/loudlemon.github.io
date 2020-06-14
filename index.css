@@ -172,7 +172,7 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/callback.jpg") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/typewriter.jpg") center center;
     background-size:cover;
     color:#fff;
     z-index:9;
