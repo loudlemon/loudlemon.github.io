@@ -38,6 +38,19 @@ $(document).ready(function(){
         return false;
     });
 });
+$('#showWheels').click(function() {
+    $("#showWheels").html(open = !open? 'Свернуть': 'Анализ результатов А/В тестирования');
+});
+$(document).ready(function(){
+    $("#showWheels").click(function () {
+        if ($("#content_Wheels").is(":hidden")) {
+            $("#content_Wheels").show("slow");
+        } else {
+            $("#content_Wheels").hide("slow");
+        }
+        return false;
+    });
+});
 function showabout(){
     $("#about_container").css("display","inherit");
     $("#about_container").addClass("animated slideInLeft");
