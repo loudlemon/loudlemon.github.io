@@ -1,2 +1,2 @@
 # loudlemon.github.io
-Summary of data science projects
+Summary of data analysis projects
