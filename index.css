@@ -137,15 +137,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(100,100,100,0.9);
+    background:rgb(255, 50, 50);
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(100,100,100,0.9);
+    background:rgb(255, 50, 50);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(100,100,100,0.9);
+    background:rgb(255, 50, 50);
     cursor:pointer;
 }
 #middle table {
@@ -165,7 +165,7 @@ body {
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(100, 100, 100);
+    color:rgb(255, 50, 50);
 }
 .container {
     width:90vw;
