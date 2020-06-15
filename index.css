@@ -164,7 +164,7 @@ body {
     text-align:center;
 }
 .social:hover { 
-    cursor: pointer;
+    /*cursor: pointer;*/
     color:rgb(255, 50, 50);
 }
 .container {
